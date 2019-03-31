@@ -11,8 +11,8 @@ import org.mockito.MockitoAnnotations;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.util.ReflectionTestUtils;
 
-import com.cch.demo.ApiService;
-import com.cch.demo.TestApiService;
+import com.cch.demo_spring_mock.ApiService;
+import com.cch.demo_spring_mock.TestApiService;
 import com.cch.example.baseutil.AopTargetUtils;
 import com.cch.example.baseutil.BaseSpringUnit;
 

@@ -1,4 +1,4 @@
-package com.cch;
+package com.cch.demo_spring_mock;
 
 import org.springframework.stereotype.Component;
 

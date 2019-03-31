@@ -8,15 +8,15 @@ import org.springframework.aop.support.AopUtils;
 
 public class AopTargetUtils {
 	/**
-	 * 获取 目标对象
+	 * Getting the target object
 	 * 
-	 * @param proxy 代理对象
+	 * @param proxy
 	 * @return
 	 * @throws Exception
 	 */
 	public static Object getTarget(Object proxy) throws Exception {
 		if (!AopUtils.isAopProxy(proxy)) {
-			return proxy;// 不是代理对象
+			return proxy;
 		}
 		if (AopUtils.isJdkDynamicProxy(proxy)) {
 			return getJdkDynamicProxyTargetObject(proxy);

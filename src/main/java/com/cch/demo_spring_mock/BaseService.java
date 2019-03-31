@@ -1,4 +1,4 @@
-package com.cch;
+package com.cch.demo_spring_mock;
 
 import java.util.ArrayList;
 import java.util.List;

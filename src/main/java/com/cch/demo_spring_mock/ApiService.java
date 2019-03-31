@@ -1,4 +1,4 @@
-package com.cch.demo;
+package com.cch.demo_spring_mock;
 
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.stereotype.Component;

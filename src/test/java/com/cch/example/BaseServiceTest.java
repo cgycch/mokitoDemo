@@ -13,8 +13,8 @@ import org.mockito.stubbing.Answer;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.test.util.ReflectionTestUtils;
 
-import com.cch.BaseService;
-import com.cch.MessageSender;
+import com.cch.demo_spring_mock.BaseService;
+import com.cch.demo_spring_mock.MessageSender;
 import com.cch.example.baseutil.AopTargetUtils;
 import com.cch.example.baseutil.BaseSpringUnit;
 
